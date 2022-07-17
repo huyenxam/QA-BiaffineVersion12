@@ -26,6 +26,7 @@ def train(args):
                       dev_dataset=dev_dataset, test_dataset=test_dataset)
             
     if args.do_train:
+        trainer.load_model()
         trainer.train()
 
     if args.do_eval:
