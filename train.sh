@@ -21,7 +21,7 @@ export ADAM_EPSILON=1e-8
 export WEIGHT_DECAY=0.01
 export WARMUP_STEPS=0
 export MAX_GRAD_NORM=1
-export SAVE_FOLDER="../result"
+export SAVE_FOLDER="../results"
 
 python train.py --train_path $TRAIN_PATH \
                 --max_char_len $MAX_CHAR_LEN  \

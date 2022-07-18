@@ -37,7 +37,4 @@ bash train.sh
 
 - [Huggingface Transformers](https://github.com/huggingface/transformers)
 
-# QA-Biaffine
-# QA-BiaffineVersion12
-# QA-BiaffineVersion12
 # QA-BiaffineVersion12
